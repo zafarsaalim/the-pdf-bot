@@ -13,3 +13,4 @@ BOT_TOKEN = os.environ.get("BOT_TOKEN")
 USDT_TRC_ADDRESS = os.environ.get("USDT_TRC_ADDRESS")
 
 USDT_TOKEN_ID = os.environ.get("USDT_TOKEN_ID")
+USDT_PAYMENT_LINK = os.environ.get("USDT_PAYMENT_LINK")
