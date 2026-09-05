@@ -1,0 +1,25 @@
+import subprocess
+import os
+import uuid
+
+async def handle_pdf_cut(input_pdf, rows, cols):
+    folder = os.path.dirname(input_pdf)                  # keep
+    input_name = os.path.splitext(os.path.basename(input_pdf))[0]
+    output_pdf = os.path.join(folder, f"{input_name}_cut.pdf")
+
+    cmd = [
+        "mutool", "poster",
+        "-x", str(cols),
+        "-y", str(rows),
+        input_pdf,
+        output_pdf
+    ]
+
+    try:
+        subprocess.run(cmd, check=True)
+        return output_pdf
+    except Exception as e:
+        print(f"CRITICAL ERROR in handle_pdf_cut: {e}")
+        import traceback
+        traceback.print_exc()
+        return None
