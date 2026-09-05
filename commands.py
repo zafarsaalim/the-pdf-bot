@@ -133,23 +133,3 @@ keyboard = [
     ]
 ]
 markup = InlineKeyboardMarkup(keyboard)
-
-
-async def xcompress_command(update, context):
-    user_id = str(update.message.from_user.id)
-    user_command_state[user_id] = "compress_choose"
-
-    rkeyboard = [
-        ["Low", "Medium", "High"]
-    ]
-
-    mrarkup = ReplyKeyboardMarkup(
-        keyboard,
-        resize_keyboard=True,
-        one_time_keyboard=True
-    )
-
-    await update.message.reply_text(
-        "📦 Choose compression quality:",
-        reply_markup=markup
-    )
