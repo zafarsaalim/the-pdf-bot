@@ -16,12 +16,12 @@ sSTART_MESSAGE = (
 
 
 START_MESSAGE=(
-📌 **QuickMate Bot**
-⚡ **Free Tool:**
-/redact – Remove sensitive text from PDF
-💬 **Custom Services:**
-For metadata scrubbing, file fixes, or tailored PDF tasks:
-Contact: @saalimzafar93
-Type /redact to start.
+"📌 QuickMate Bot\n\n"
+"⚡Free Tool:\n"
+"/redact – Remove sensitive text from PDF\n"
+"💬 Custom Services:\n"
+"For metadata scrubbing, file fixes, or tailored PDF tasks:\n"
+"Contact: @saalimzafar93\n"
+"Type /redact to start."
 )
 
