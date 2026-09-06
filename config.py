@@ -20,3 +20,10 @@ USDT_PAYMENT_LINK = os.environ.get("USDT_PAYMENT_LINK")
 PROVIDER_TOKEN= "5775769170:LIVE:TG_Dk_E9leC8sPIHe0qBvjAkFQA"
 MODE = "test"
 USDT_TRC_ADDRESS = "TWoxYTnujNiKTZu4XiDHTkGche5uwPZoDe"
+
+
+PRICING_TIERS = [
+    (5, 10),    # 1–5 pages = 10 USDT
+    (10, 20),   # 6–10 pages = 20 USDT
+    (float('inf'), 30)  # >10 pages = 30 USDT
+]
