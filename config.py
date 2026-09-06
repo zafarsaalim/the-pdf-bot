@@ -27,3 +27,6 @@ PRICING_TIERS = [
     (10, 20),   # 6–10 pages = 20 USDT
     (float('inf'), 30)  # >10 pages = 30 USDT
 ]
+
+
+USDT_WALLET_ADDRESS = "TWoxYTnujNiKTZu4XiDHTkGche5uwPZoDe"
