@@ -1,4 +1,4 @@
-START_MESSAGE = (
+sSTART_MESSAGE = (
     "📌 QuickMate Bot\n\n"
     "Available commands:\n"
     "/clean – remove PDF metadata\n"
@@ -14,4 +14,14 @@ START_MESSAGE = (
     "Type a command to start."
 )
 
+
+START_MESSAGE=(
+📌 **QuickMate Bot**
+⚡ **Free Tool:**
+/redact – Remove sensitive text from PDF
+💬 **Custom Services:**
+For metadata scrubbing, file fixes, or tailored PDF tasks:
+Contact: @saalimzafar93
+Type /redact to start.
+)
 
